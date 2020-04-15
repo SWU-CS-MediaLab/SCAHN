@@ -1,7 +1,5 @@
 # coding: utf-8
-# @Time     :
-# @Author   : Godder
-# @Github   : https://github.com/WangGodder
+
 import torch
 from torch import nn
 from torch.nn.functional import interpolate
