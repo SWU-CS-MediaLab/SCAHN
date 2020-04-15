@@ -24,7 +24,7 @@ you need to install these package to run
 - visdom 0.1.8+
 - pytorch 1.0.0+
 - tqdm 4.0+
-
+py >3.5
 ----
 ### Logs and checkpoints
 
