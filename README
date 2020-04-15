@@ -1,1 +1,27 @@
-- The source code of this paper will be released once it is accepted by Journal.
+# Self-Constraining and Attention-based Hashing Network for Bit-Scalable Cross-Modal Retrieval
+
+## Abstract
+
+Recently deep cross-modal hashing (CMH) have received increased attention in multimedia information retrieval, as it is able to combine the benefit from the low storage cost and search efficiency of hashing, and the strong capabilities of feature abstraction by deep neural networks. CMH can effectively integrates hash representation learning and hash function optimization into an end-to-end framework. However, most of existing deep cross-modal hashing methods use a one-size-fits-all high level representation resulting in the loss of the spatial information of data. Also, previous methods mostly generated fixed length hashing codes. Here, the signi cance level of different bits are equally weighted thereby restricting their practical exibility. To address these issues, we propose a self-constraining and attention-based hashing network (SCAHN) for bit-scalable cross-modal hashing. SCAHN integrates the label constraints from early and late-stages as well as their fused features into the hash representation and hash function learning. Moreover, as the fusion of early and late-stages features is based on an attention mechanism, each bit of the hashing codes can be unequally weighted so that the code lengths can be manipulated by ranking the signi cance of each bit without extra hash-model training. Extensive experiments conducted on four benchmark datasets demonstrate that our proposed SCAHN outperforms the current state-of-the-art CMH methods. Moreover, it is also shown that the generated bit-scalable hashing codes well-preserve the discriminative power with varying code lengths and obtain competitive results comparing to the state-of-the-art.
+
+------
+
+```latex
+@article{SCAHN
+author = {Xinzhi Wang,Xitao Zou,Erwin M. Bakker, Song Wu},
+title = {Self-Constraining and Attention-based Hashing Network for Bit-Scalable Cross-Modal Retrieval},
+journaltitle = {Neurocomputing},
+date = {13 March 2020},
+}
+```
+
+## 使用方法
+
+详情见：https://github.com/WangGodder/deep-cross-modal-hashing
+
+```yaml
+training:
+  # the name of python file in training
+  method: SCAHN
+```
+
