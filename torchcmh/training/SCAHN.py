@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2019/7/13
-# @Author  : Godder
-# @Github  : https://github.com/WangGodder
+
 import numpy as np
 import torch
 from torch.autograd import Variable
