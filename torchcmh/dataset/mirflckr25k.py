@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2019/6/27
-# @Author  : Godder
-# @Github  : https://github.com/WangGodder
+
 from .base import *
 from scipy import io as sio
 import numpy as np
