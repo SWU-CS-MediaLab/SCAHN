@@ -15,13 +15,4 @@ date = {13 March 2020},
 }
 ```
 
-## 使用方法
-
-详情见：https://github.com/WangGodder/deep-cross-modal-hashing
-
-```yaml
-training:
-  # the name of python file in training
-  method: SCAHN
-```
 
