@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2019/8/1
-# @Author  : Godder
-# @Github  : https://github.com/WangGodder
+
 import os
 import torch
 import sys
