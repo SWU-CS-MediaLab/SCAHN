@@ -18,40 +18,19 @@ journal = {Neurocomputing},
 doi = {10.1016/j.neucom.2020.03.019}  
 }  
 
-
-# deep cross modal hashing (torchcmh)
-
-torchcmh is a library built on PyTorch for deep learning cross modal hashing.\
-Including: 
-- data visualization
-- baseline methods
-- multiple data reading API
-- loss function API
-- config call
-----
-### Dataset
-
-There are four datasets(Mirflickr25k, Nus Wide, MS coco, IAPR TC-12) sort out by myself,
-if you want use these datasets, please download mat file and image file by readme file in dataset package.\
-Please read "[readme](https://github.com/WangGodder/deep-cross-modal-hashing/blob/master/torchcmh/dataset/README.md)" in dataset package
-
-----
-### Model
-You can crate model or use existing model. 
-We support some pre-train models, you can check out the [README.md](https://github.com/WangGodder/deep-cross-modal-hashing/blob/master/torchcmh/models/README.md) file in details.
-
 ---
 ### Dependencies 
 you need to install these package to run
 - visdom 0.1.8+
 - pytorch 1.0.0+
 - tqdm 4.0+
+
 ----
 ### Logs and checkpoints
 
-All method training will create a log and checkpoint to store the model. \
-you can find log in ./logs/\{method_name\}/\{dataset_name\}/date.txt \
-you can find checkpoints in ./checkpoints/\{method_name\}/\{dataset_name\}/\{bit\}-\{model_name\}.pth
+The training will create a log and checkpoint to store the model. \
+You can find log in ./logs/\{method_name\}/\{dataset_name\}/date.txt \
+You can find checkpoints in ./checkpoints/\{method_name\}/\{dataset_name\}/\{bit\}-\{model_name\}.pth
 
 ----
 ### How to using
