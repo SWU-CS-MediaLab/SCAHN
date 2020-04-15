@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2019/7/10
-# @Author  : Godder
-# @Github  : https://github.com/WangGodder
+
 import warnings
 methods = ['DCMH', 'TDH', 'CMHH', 'SCAHN', 'PRDH', 'SSAH', 'RDCMH', 'ASCHN_nMS', 'SCAHN focal', 'QDCMH', 'CDQ', 'CHN', 'BCDH', 'MCDH']
 
