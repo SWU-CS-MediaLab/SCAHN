@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time     : 2019/6/27
-# @Author   : Godder
-# @Github   : https://github.com/WangGodder
+
 from torch.utils.data import Dataset
 from torchvision import transforms
 from torchcmh.utils.calc_utils import calc_IF
