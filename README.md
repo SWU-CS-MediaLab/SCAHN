@@ -8,14 +8,14 @@ Recently deep cross-modal hashing (CMH) have received increased attention in mul
 
 If you use this code as baseline, please refer the following paper:
 
-@article{article,
-author = {Wang, Xinzhi and Zou, Xitao and Bakker, Erwin and Wu, Song},  
-year = {2020},  
-month = {03},  
-pages = {},
-title = {Self-Constraining and Attention-based Hashing Network for Bit-Scalable Cross-Modal Retrieval},  
-journal = {Neurocomputing},  
-doi = {10.1016/j.neucom.2020.03.019}  
+@article{article,  
+author = {Wang, Xinzhi and Zou, Xitao and Bakker, Erwin and Wu, Song},    
+year = {2020},    
+month = {03},    
+pages = {},  
+title = {Self-Constraining and Attention-based Hashing Network for Bit-Scalable Cross-Modal Retrieval},    
+journal = {Neurocomputing},   
+doi = {10.1016/j.neucom.2020.03.019}   
 }  
 
 ---
