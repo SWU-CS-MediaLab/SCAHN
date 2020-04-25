@@ -6,7 +6,7 @@ Recently deep cross-modal hashing (CMH) have received increased attention in mul
 
 ------
 
-If you use this code as baseline, please refer the following paper:
+Please cite our paper if you use this code in your own work:
 
 @article{article,  
 author = {Wang, Xinzhi and Zou, Xitao and Bakker, Erwin and Wu, Song},    
