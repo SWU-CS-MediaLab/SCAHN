@@ -11,8 +11,8 @@ Please cite our paper if you use this code in your own work:
 @article{article,  
 author = {Wang, Xinzhi and Zou, Xitao and Bakker, Erwin and Wu, Song},    
 year = {2020},    
-month = {03},    
-pages = {},  
+month = {08},    
+pages = {255-271},  
 title = {Self-Constraining and Attention-based Hashing Network for Bit-Scalable Cross-Modal Retrieval},    
 journal = {Neurocomputing},   
 doi = {10.1016/j.neucom.2020.03.019}   
